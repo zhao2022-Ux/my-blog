@@ -8,7 +8,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <link rel="icon" href="/images/avatar.jpg" />
+    <link rel="icon" href="https://cdn.luogu.com.cn/upload/usericon/1056150.png" />
     <link rel="preconnect" href="https://s4.zstatic.net" />
 <script src="https://s4.zstatic.net/ajax/libs/vue/3.3.7/vue.global.prod.min.js"></script>
 <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
@@ -28,6 +28,11 @@
 />
 <script src="/js/lib/highlight.js"></script>
 
+
+<script src="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script src="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
+<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/KaTeX/0.16.9/katex.min.css" />
+<script src="/js/lib/math.js"></script>
 
 
 <script src="/js/lib/preview.js"></script>
@@ -147,7 +152,7 @@
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
             <div id="home-head">
-    <div id="home-background" ref="homeBackground" data-images="/images/background.jpg"></div>
+    <div id="home-background" ref="homeBackground" data-images="/images/background.jpg,https://cdn.luogu.com.cn/upload/image_hosting/nmx2o5tl.png"></div>
     <div id="home-info" @click="homeClick">
         <span class="loop"></span>
         <span class="loop"></span>
@@ -165,6 +170,36 @@
 <div id="home-posts-wrap" true ref="homePostsWrap">
     <div id="home-posts">
         
+
+<div class="post">
+    <a href="/2024/04/16/CHEAM/">
+        <h2 class="post-title">CHEAM</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/4/16
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        
+        
+    </div>
+    <a href="/2024/04/16/CHEAM/" class="go-post">阅读全文</a>
+</div>
 
 <div class="post">
     <a href="/2024/04/15/hello-world/">
@@ -225,12 +260,24 @@
         <div id="card-style">
     <div id="card-div">
         <div class="avatar">
-            <img src="/images/avatar.jpg" alt="avatar" />
+            <img src="https://cdn.luogu.com.cn/upload/usericon/1056150.png" alt="avatar" />
         </div>
         <div class="name">John Doe</div>
         <div class="description">
-            <p>Description<br>…</p>
+            <p>积土成山，风雨兴焉；积水成渊，蛟龙生焉。</p>
 
+        </div>
+        
+        <div class="icon-links">
+            
+            <span class="icon-link">
+                <a href="/function%20link()%20%7B%20%5Bnative%20code%5D%20%7D">
+                    <i
+                        class="fa- fa- fa-fw"
+                    ></i>
+                </a>
+            </span>
+            
         </div>
         
         
@@ -253,7 +300,7 @@
     <div id="footer-wrap">
         <div>
             &copy;
-            2022 - 2024 Hexo
+            2024 - 2024 Hexo
             <span id="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
@@ -262,6 +309,13 @@
         <div>
             Based on the <a target="_blank" rel="noopener" href="https://hexo.io">Hexo Engine</a> &amp;
             <a target="_blank" rel="noopener" href="https://github.com/theme-particlex/hexo-theme-particlex">ParticleX Theme</a>
+        </div>
+        
+        <div>
+            备案号：
+            
+            114514
+            
         </div>
         
     </div>
