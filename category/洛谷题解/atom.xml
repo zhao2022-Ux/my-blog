@@ -1,20 +1,15 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>Oler_ZHH</title>
-        <link>http://zhaohonghao-qwq.com</link>
-        <description>积土成山，风雨兴焉；积水成渊，蛟龙生焉。</description>
-        <language>zh-CN</language>
-        <pubDate>Thu, 11 Apr 2024 19:57:01 +0800</pubDate>
-        <lastBuildDate>Thu, 11 Apr 2024 19:57:01 +0800</lastBuildDate>
-        <category>题解</category>
-        <item>
-            <guid isPermalink="true">http://zhaohonghao-qwq.com/article/P10314%20[SHUPC%202024]%20%E5%87%BD%E6%95%B0/</guid>
-            <title>P10314 [SHUPC 2024] 函数</title>
-            <link>http://zhaohonghao-qwq.com/article/P10314%20[SHUPC%202024]%20%E5%87%BD%E6%95%B0/</link>
-            <category>题解</category>
-            <pubDate>Thu, 11 Apr 2024 19:57:01 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;题目传送门：&lt;a href=&#34;%5Cproblem%5CP10314&#34;&gt;P10314 [SHUPC 2024] 函数&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://zhaohonghao-qwq.com</id>
+    <title>Oler_ZHH • Posts by &#34;洛谷题解&#34; category</title>
+    <link href="http://zhaohonghao-qwq.com" />
+    <updated>2024-04-11T11:57:01.000Z</updated>
+    <category term="题解" />
+    <entry>
+        <id>http://zhaohonghao-qwq.com/article/P10314%20[SHUPC%202024]%20%E5%87%BD%E6%95%B0/</id>
+        <title>P10314 [SHUPC 2024] 函数</title>
+        <link rel="alternate" href="http://zhaohonghao-qwq.com/article/P10314%20[SHUPC%202024]%20%E5%87%BD%E6%95%B0/"/>
+        <content type="html">&lt;p&gt;题目传送门：&lt;a href=&#34;%5Cproblem%5CP10314&#34;&gt;P10314 [SHUPC 2024] 函数&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;解函数题。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;函数解读&#34;&gt;&lt;a href=&#34;#函数解读&#34; class=&#34;headerlink&#34; title=&#34;函数解读&#34;&gt;&lt;/a&gt;函数解读&lt;/h3&gt;&lt;p&gt;$$f(x)&amp;#x3D;x-0.5+\frac{\arctan(\cot(\pi x))}{\pi}$$&lt;/p&gt;
@@ -52,7 +47,8 @@
 &lt;li&gt;Q：为什么 $\cot(x) &amp;#x3D; \frac{1}{\tan x}$？&lt;/li&gt;
 &lt;li&gt;A：按照&lt;strong&gt;三角函数&lt;/strong&gt;，$\cot x &amp;#x3D; \frac{b}{a}$ , $\tan x &amp;#x3D; \frac{a}{b}$，即 $\cot$ 和 $\tan$ 互为倒数，所以$\cot(x) &amp;#x3D; \frac{1}{\tan x}$。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;有问题欢迎评论区留言&#34;&gt;&lt;a href=&#34;#有问题欢迎评论区留言&#34; class=&#34;headerlink&#34; title=&#34;有问题欢迎评论区留言~&#34;&gt;&lt;/a&gt;有问题欢迎评论区留言~&lt;/h5&gt; ]]></description>
-        </item>
-    </channel>
-</rss>
+&lt;h5 id=&#34;有问题欢迎评论区留言&#34;&gt;&lt;a href=&#34;#有问题欢迎评论区留言&#34; class=&#34;headerlink&#34; title=&#34;有问题欢迎评论区留言~&#34;&gt;&lt;/a&gt;有问题欢迎评论区留言~&lt;/h5&gt;</content>
+        <category term="题解" />
+        <updated>2024-04-11T11:57:01.000Z</updated>
+    </entry>
+</feed>
